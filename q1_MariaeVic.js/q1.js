@@ -24,5 +24,8 @@ function solucao(n){
         let n = parseInt(valor);
         // leitura de valores do HTML
 
-        
+        if(isNaN(n) || n < 1 ){
+            document.getElementById("saida").innerHTML = "Insira um valor válido (número maior que 0)";
+            return;
+        }
     }
