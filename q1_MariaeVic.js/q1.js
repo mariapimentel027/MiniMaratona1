@@ -8,7 +8,12 @@ function solucao(n){
             // % RESTO DE DIVISÃO  === IGUALDADE ESTRITA (tipo+valor) && (ambos verdadeiros)
     } else if ( i % 3 === 0) {
         vetor.push("Fizz");
-
+    } else if (i % 5 === 0){
+        vetor.push("Buzz");
+    } else if (i % 7 === 0){
+        vetor.push("Boom");
+    } else {
+        vetor.push(i);
     }
 }
 }
