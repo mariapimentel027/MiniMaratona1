@@ -33,5 +33,6 @@ function solucao(n){
         let resultado = solucao(n);
         // transformando para string
         document.getElementById("saida").innerHTML = "[" + resultado.join(", ") + "]";
+        // tive que pesquisar o .join nao lembrava mais como fazer =>  junta um array com um separador que é passado como parâmetro
 
     }
