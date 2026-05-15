@@ -36,3 +36,8 @@ function solucao(n){
         // tive que pesquisar o .join nao lembrava mais como fazer =>  junta um array com um separador que é passado como parâmetro
 
     }
+
+
+    // DIFICULDADES AO LONGO DA RESOLUÇÃO
+    // como foi o primeiro exercicio achei um pouco complicado, principalmente por que algumas coisas eu não lembrava como fazia. A maior 
+    // dificuldade é que eu realmente não lembrava como exibir o "resultado", mas pesquisei um pouco e entendi.
