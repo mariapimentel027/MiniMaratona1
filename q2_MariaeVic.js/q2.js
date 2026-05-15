@@ -9,6 +9,9 @@ function solucao(texto){
 
     return textominusculo === textoinvertido;
     // comparando os textos
+}
 
-    
+function executar(){
+    let texto = document.getElementById("campo").value;
+    // fazendo leitura dos campos HTML
 }
