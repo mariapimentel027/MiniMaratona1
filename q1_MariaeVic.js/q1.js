@@ -16,4 +16,13 @@ function solucao(n){
         vetor.push(i);
     }
 }
+    return vetor;
 }
+    function executar(){
+        //chamando function do html
+        let valor = document.getElementById("campo").value;
+        let n = parseInt(valor);
+        // leitura de valores do HTML
+
+        
+    }
