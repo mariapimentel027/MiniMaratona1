@@ -14,4 +14,11 @@ function solucao(texto){
 function executar(){
     let texto = document.getElementById("campo").value;
     // fazendo leitura dos campos HTML
+
+    if (texto === ""){
+        document.getElementById("saida").innerHTML = "Por favor digite alguma palavra ou frase para análise";
+        return;
+    }
+    let resultado = solucao(texto);
+    document.getElementById("saida").innerHTML = resultado ? "true" : "false";
 }
