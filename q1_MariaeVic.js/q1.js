@@ -28,4 +28,10 @@ function solucao(n){
             document.getElementById("saida").innerHTML = "Insira um valor válido (número maior que 0)";
             return;
         }
+        // verificação de valores
+
+        let resultado = solucao(n);
+        // transformando para string
+        document.getElementById("saida").innerHTML = "[" + resultado.join(", ") + "]";
+
     }
